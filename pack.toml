@@ -1,12 +1,12 @@
 name = "CC Vanilla"
 author = "CC"
-version = "1.0.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e407c3534e6b94d4bb304604cbcd8bb24b3451b8c2d5dc02a77f29a4848fa400"
+hash = "ea85a33ec8be3cdf20e6d37695d549cd9c468287886b31969a6ad8bdd0c26714"
 
 [versions]
 minecraft = "1.20.2"

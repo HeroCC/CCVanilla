@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build-pack.yaml"
+hash = "c31a8512f8a0452a273938a521dbf06f71e3cdef50f7a995ab2b650a9a6d8e99"
+
+[[files]]
 file = "LICENSE"
 hash = "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
 
 [[files]]
 file = "README.md"
 hash = "f200d609dc3a0c9247f768d3b87ba61f200e825079f632d51f114b1d88bbe078"
+
+[[files]]
+file = "icon.jpeg"
+hash = "79f8ba7877c954eef0d0256453af4bb22414a9843146586a417c1b515d298ff7"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
