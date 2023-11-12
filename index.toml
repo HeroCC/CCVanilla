@@ -1,0 +1,36 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "3b8f7c9783f3c0ce8322c94a1c813a9fe6e15ab5165efc4392da9a28de1f5744"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "920353a9abd2f7ac97dbddcd8e7e85da2b916ee922e4d5f693cfd463afef89c8"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "12258d67ac8a1601f28351f460198483bf9224d71f7b51b90dcc41ebcf963aa9"
+metafile = true
+
+[[files]]
+file = "mods/litematica.pw.toml"
+hash = "1519a933ad5d377cc6fbe75fa7f316b1989e00112dfc712d23af62b3d4a99a85"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "ed27ecb297016accc41e9894b6e11d6c46b455211e358afa6218ce629ef56978"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "aac087baa5cda20dea324cebd9076991e4802561702b11292d96bdbc6ed15472"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "ff614f50beb3bc29a699dbcc0a61f65bd6c6154cd374f2763ee57cf578045a8f"
+metafile = true

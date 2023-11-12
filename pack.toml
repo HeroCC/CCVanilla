@@ -1,0 +1,13 @@
+name = "CC Vanilla"
+author = "CC"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e860399114347cb8d40d7ca380cc9092b200137fad09ab199e03dd739bdf3ab3"
+
+[versions]
+minecraft = "1.20.2"
+quilt = "0.22.0-beta.1"
