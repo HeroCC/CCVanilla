@@ -20,6 +20,7 @@ jobs:
           mkdir packwiz && cd packwiz
           wget "https://nightly.link/packwiz/packwiz/actions/runs/6603286845/Linux%2064-bit%20x86.zip" -O packwiz.zip
           unzip packwiz.zip
+          chmod +x ./packwiz
           echo "${PWD##*/}" | tee $GITHUB_PATH
 
       - name: Test packwiz
