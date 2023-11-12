@@ -1,0 +1,33 @@
+name: Build Modrinth Pack
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download and install Packwiz
+        run: |
+          mkdir packwiz
+          wget "https://nightly.link/packwiz/packwiz/actions/runs/6603286845/Linux%2064-bit%20x86.zip" -O packwiz.zip
+          unzip packwiz.zip
+          echo $(pwd) >> $GITHUB_PATH
+          cd ~
+          packwiz --help
+      
+      - name: Build modpack
+        run: |
+          packwiz mr export
+
+      - name: Archive build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Modrinth Pack
+          path: "*.mrpack"
