@@ -17,7 +17,7 @@ jobs:
 
       - name: Download and install Packwiz
         run: |
-          mkdir packwiz
+          mkdir packwiz && cd packwiz
           wget "https://nightly.link/packwiz/packwiz/actions/runs/6603286845/Linux%2064-bit%20x86.zip" -O packwiz.zip
           unzip packwiz.zip
           echo $(pwd) >> $GITHUB_PATH
