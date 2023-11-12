@@ -1,18 +1,31 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+
+[[files]]
+file = "README.md"
+hash = "f200d609dc3a0c9247f768d3b87ba61f200e825079f632d51f114b1d88bbe078"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
-hash = "3b8f7c9783f3c0ce8322c94a1c813a9fe6e15ab5165efc4392da9a28de1f5744"
+hash = "260a142b1b04da998ccc93034d31cc64e737bdd6e4538da21441c4d9c506a46d"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "6c6ebc716eee42c2f60899e53dfcea8ac6e374222d1eff7eff29b9f599012bb5"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "920353a9abd2f7ac97dbddcd8e7e85da2b916ee922e4d5f693cfd463afef89c8"
+hash = "e43d696d9a6546f3b622a1242c42d3ec34d3a0739225b9b51319c9402f09041b"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "12258d67ac8a1601f28351f460198483bf9224d71f7b51b90dcc41ebcf963aa9"
+hash = "d7f15d38123005f4b64320ffe06c11d95920673df07ddec5862d9f9e1fd85cad"
 metafile = true
 
 [[files]]
